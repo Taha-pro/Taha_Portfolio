@@ -21,6 +21,8 @@
     />
   </head>
   <body>
+    <div id="preloader"></div>
+
     <header>
       <a href="#" class="taha">Taha</a>
 
@@ -478,6 +480,14 @@
             form.reset();
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!-- JS for Pre-Loader -->
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
       });
     </script>
   </body>
