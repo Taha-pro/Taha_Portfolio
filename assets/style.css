@@ -23,7 +23,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+.logo {
+  width: 100px;
+}
 .container {
   padding: 10px 10%;
 }
@@ -625,7 +627,11 @@ form .btn2 {
 
   header .power {
     display: block;
-    margin-left: 180px;
+    margin-left: 215px;
+  }
+
+  .logo {
+    margin-left: -78px;
   }
 
   header .menu {
