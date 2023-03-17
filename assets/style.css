@@ -572,6 +572,11 @@ a.slide_btn {
   background-color: rgb(243, 145, 18);
 }
 
+.mail {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* contact right */
 
 .contact-right form {
